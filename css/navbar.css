@@ -1,0 +1,53 @@
+.navbar{
+    background-color: var(--color-nft);
+}
+
+.navbar-container{
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.navbar h1{
+    margin-top: 0.5rem;
+}
+
+.navbar h1 i{
+    background-color: var(--coolor-header);
+    border-radius: 10px;
+}
+
+.navbar h1 a{
+    margin-left: 0.3rem;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar li{
+    margin-left: 1rem;
+    border-radius: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: var(--coolor-header);
+}
+
+.navbar .submit-li{
+    background-color: rgba(20, 20, 20, 1);
+    border-style: double;
+    border-width: 2px;
+    border-color: var(--coolor-header);
+    padding: 0.5rem;
+}
+
+.navbar .singin-li{
+    background-color: var(--color-secundary);
+    border-style: double;
+    border-color: var(--color-secundary);
+    padding: 0.5rem;
+}

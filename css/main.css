@@ -1,0 +1,41 @@
+.main-content{
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 50rem;
+}
+
+.main-container-content{
+    display: grid;
+    grid-template-areas: 
+    'icon title '
+    'icon paragrap'
+    'icon link';  
+    padding-top: 5rem;
+    padding-left: 1rem;
+}
+
+.bx-content{
+    grid-area: icon;
+    padding: 1.5rem;
+}
+
+.container-content-title{
+    grid-area: title;
+}
+
+.container-content-paragraph{
+    grid-area: paragrap;
+}
+
+.container-content-link{
+    grid-area: link;
+}

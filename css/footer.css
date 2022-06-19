@@ -1,0 +1,21 @@
+.footer-content{
+    background-color: var(--color-nft);
+    height: auto;
+    padding: 2rem;
+    color: var(--coolor-header);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer-content a{
+    text-decoration: none;
+    color: var(--coolor-header);
+}
+
+.company-content-title{
+    padding-bottom: 1rem;
+}
+
+.company-contatc{
+    padding-top: 2rem;
+}
