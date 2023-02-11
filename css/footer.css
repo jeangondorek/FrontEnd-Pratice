@@ -3,6 +3,11 @@
     height: auto;
     padding: 2rem;
     color: var(--coolor-header);
+}
+
+.footer-container{
+    margin-left: 25vw;
+    margin-right: 25vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
